@@ -1,0 +1,9 @@
+@import './theme/styles.scss';
+
+.app {
+  background-color: $dark;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
