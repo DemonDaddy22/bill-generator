@@ -2,5 +2,8 @@
     "workbench.colorCustomizations": {
         "statusBar.background": "#B63364",
         "statusBar.foreground": "#E7E7E7"
+    },
+    "yaml.schemas": {
+        "https://json.schemastore.org/eslintrc.json": "file:///Users/rohangupta/Library/Mobile%20Documents/com~apple~CloudDocs/bill-generator/.github/workflows/dependabot.yml"
     }
 }
