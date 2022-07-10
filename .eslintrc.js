@@ -1,5 +1,4 @@
 module.exports = {
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
@@ -51,7 +50,7 @@ module.exports = {
     ],
     camelcase: 1,
     'template-curly-spacing': 'off',
-    indent: ['error', 4, { ignoredNodes: ['TemplateLiteral'] }],
+    indent: ['error', 2, { ignoredNodes: ['TemplateLiteral'] }],
     'max-len': [
       2,
       {
