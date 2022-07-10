@@ -1,46 +1,11 @@
-# Getting Started with Create React App
+<h1 align='center'>Your Receipt</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub last commit](https://img.shields.io/github/last-commit/demondaddy22/bill-generator?color=%2378DBE2&style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/demondaddy22/bill-generator?color=%23FFF982&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/demondaddy22/bill-generator?color=%239FFEB0&style=for-the-badge)
 
-## Available Scripts
+_Your Receipt_ lets you generate various kinds of bills conveniently and for free. With live-preview you can view how your details are shaping up in the form of a bill in real time. Once you are done adding the details, easily save the generated bill to your system.
 
-In the project directory, you can run:
+## Terms of Use
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You agree that usage of this site and generated bills/receipts are at your own risk and you cannot hold me liable for any legal action that is initiated against you as a result of the use/misuse/abuse of the information/invoice/receipts/bills/images/pdfs/files generated through this site. Through means of this site, I am not advising anyone to create fake bills or endorse the misuse of this tool. Kindly use at your own risk.
