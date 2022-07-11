@@ -2,8 +2,13 @@ module.exports = {
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 6,
+    ecmaFeatures: {
+      globalReturn: false,
+      jsx: true,
+    },
     requireConfigFile: false,
     sourceType: 'module',
+    babelOptions: { presets: ['@babel/preset-react'] },
   },
   env: {
     es6: true,
@@ -15,7 +20,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 2,
     semi: 2,
-    'comma-dangle': 0,
+    'comma-dangle': ['error', 'only-multiline'],
     'react/jsx-uses-vars': 1,
     'no-unused-vars': 1,
     'no-undef': 0,
