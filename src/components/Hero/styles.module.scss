@@ -1,0 +1,53 @@
+@import '../../theme/styles.scss';
+
+.container {
+  flex: 1;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 500px;
+  }
+}
+
+.mainHeading {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.5rem;
+  color: $white;
+  margin: 0;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2rem;
+  }
+}
+
+.secondaryHeadingContainer {
+  .secondaryHeading {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    margin: 0;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 5rem;
+    }
+  
+    &:nth-of-type(1) {
+      color: $accent-one;
+    }
+    &:nth-of-type(2) {
+      color: $accent-two;
+    }
+    &:nth-of-type(3) {
+      color: $accent-three;
+    }
+  }
+}
+
+.description {
+  color: rgba($color: $light, $alpha: 0.8);
+  width: 80%;
+  font-size: 0.85rem;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 0.95rem;
+  }
+}
